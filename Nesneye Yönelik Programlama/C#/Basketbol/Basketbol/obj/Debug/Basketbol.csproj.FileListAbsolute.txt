@@ -1,0 +1,8 @@
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\bin\Debug\Basketbol.exe.config
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\bin\Debug\Basketbol.exe
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\bin\Debug\Basketbol.pdb
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\obj\Debug\Basketbol.csproj.AssemblyReference.cache
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\obj\Debug\Basketbol.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\obj\Debug\Basketbol.csproj.CoreCompileInputs.cache
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\obj\Debug\Basketbol.exe
+C:\Users\oguz\Desktop\C#\Basketbol\Basketbol\obj\Debug\Basketbol.pdb

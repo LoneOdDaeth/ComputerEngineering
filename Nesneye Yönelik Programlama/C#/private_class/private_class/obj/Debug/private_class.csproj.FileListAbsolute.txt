@@ -1,0 +1,8 @@
+C:\Users\oguz\Desktop\C#\private_class\private_class\obj\Debug\private_class.csproj.AssemblyReference.cache
+C:\Users\oguz\Desktop\C#\private_class\private_class\obj\Debug\private_class.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\Desktop\C#\private_class\private_class\obj\Debug\private_class.csproj.CoreCompileInputs.cache
+C:\Users\oguz\Desktop\C#\private_class\private_class\bin\Debug\private_class.exe.config
+C:\Users\oguz\Desktop\C#\private_class\private_class\bin\Debug\private_class.exe
+C:\Users\oguz\Desktop\C#\private_class\private_class\bin\Debug\private_class.pdb
+C:\Users\oguz\Desktop\C#\private_class\private_class\obj\Debug\private_class.exe
+C:\Users\oguz\Desktop\C#\private_class\private_class\obj\Debug\private_class.pdb
