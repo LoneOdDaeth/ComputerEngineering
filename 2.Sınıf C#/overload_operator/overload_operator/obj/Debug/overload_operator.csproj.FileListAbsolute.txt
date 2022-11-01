@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\bin\Debug\overload_operator.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\bin\Debug\overload_operator.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\bin\Debug\overload_operator.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\obj\Debug\overload_operator.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\obj\Debug\overload_operator.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\obj\Debug\overload_operator.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\obj\Debug\overload_operator.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\overload_operator\overload_operator\obj\Debug\overload_operator.pdb

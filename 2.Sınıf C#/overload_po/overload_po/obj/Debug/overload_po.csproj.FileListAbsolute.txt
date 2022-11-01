@@ -1,0 +1,8 @@
+C:\Users\oguz\Desktop\overload_po\overload_po\bin\Debug\overload_po.exe.config
+C:\Users\oguz\Desktop\overload_po\overload_po\bin\Debug\overload_po.exe
+C:\Users\oguz\Desktop\overload_po\overload_po\bin\Debug\overload_po.pdb
+C:\Users\oguz\Desktop\overload_po\overload_po\obj\Debug\overload_po.csproj.AssemblyReference.cache
+C:\Users\oguz\Desktop\overload_po\overload_po\obj\Debug\overload_po.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\Desktop\overload_po\overload_po\obj\Debug\overload_po.csproj.CoreCompileInputs.cache
+C:\Users\oguz\Desktop\overload_po\overload_po\obj\Debug\overload_po.exe
+C:\Users\oguz\Desktop\overload_po\overload_po\obj\Debug\overload_po.pdb
