@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\bin\Debug\set-getFunction.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\bin\Debug\set-getFunction.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\bin\Debug\set-getFunction.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\obj\Debug\set-getFunction.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\obj\Debug\set-getFunction.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\obj\Debug\set-getFunction.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\obj\Debug\set-getFunction.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\set-getFunction\set-getFunction\obj\Debug\set-getFunction.pdb
