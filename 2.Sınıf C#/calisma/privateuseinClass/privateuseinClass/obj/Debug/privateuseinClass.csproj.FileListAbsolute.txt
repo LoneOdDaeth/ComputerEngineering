@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\bin\Debug\privateuseinClass.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\bin\Debug\privateuseinClass.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\bin\Debug\privateuseinClass.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\obj\Debug\privateuseinClass.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\obj\Debug\privateuseinClass.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\obj\Debug\privateuseinClass.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\obj\Debug\privateuseinClass.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\privateuseinClass\privateuseinClass\obj\Debug\privateuseinClass.pdb
