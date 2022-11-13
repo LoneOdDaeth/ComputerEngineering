@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\bin\Debug\sınıfOlusturma.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\bin\Debug\sınıfOlusturma.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\bin\Debug\sınıfOlusturma.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\obj\Debug\sınıfOlusturma.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\obj\Debug\sınıfOlusturma.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\obj\Debug\sınıfOlusturma.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\obj\Debug\sınıfOlusturma.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\sınıfOlusturma\sınıfOlusturma\obj\Debug\sınıfOlusturma.pdb
