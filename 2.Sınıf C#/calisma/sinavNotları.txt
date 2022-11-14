@@ -1,0 +1,41 @@
+soyutlama
+karmaşıklığı azaltmak için kullanılır
+soyutlamanın özelliği her sınıfın özelliğini iyi bir şekilde tanımlamaktır
+sınıfın içindeki değişkenlerin tanımlanılması olayı buna örnektir
+
+saklama
+saklama soyutlamayı desteklemek yada güçlendirmek için kullanılır
+sınıf içindeki bütün değişkenleri private tanımlanır
+bu özelliklere sadece yordamlar(metotlar) üzerinden ulaşılmasına izin verirler
+
+saklama, paketleme, kapsülleme
+saklama soyutlamayı desteklemek yada güçlendirmek için bir sınıfın iç yapısının gizlenmesidir
+sınıfın içindeki özellikler private olarak tanımlanır ve sadece yordamlar üzerinden ulaşılır
+
+property, özellik
+bir sınıf içerisinde bazı bölümlere her zaman ulaşılmasına gerek yoktur
+kapsülleme ile bilinçsiz kullanım ve veri kaybı gibi olayların önüne geçeriz
+
+set get alanları 
+bir property her zaman set get içermek zorunda değildir
+only-get = read-only ///// only-set = write-only
+
+polymorphism(Cok bicimlilik)
+Bir nesnenin kendi özelliklerinin dışına çıkıp başka bir nesne gibi davranmasına denir
+genelde overload sorunlarından oluşur
+
+fonksiyon aşırı yüklemesi
+parametre sayısının farklı olması
+parametre türlerinin farklı olması
+
+yapıcı aşırı yüklemesi
+fonksiyonlarla aynı sebeplerden aşırı yüklenir
+
+operatör aşırı yüklemesi
+eğer string ifade ve integer ifadeyi toplamaya çalışırsan int değere string gibi davranır ve
+onları yan yana yazar
+
+kişisel operatör aşırı yükleme
+oluşturulmuş olan iki nesneyi toplamaya çalışırsak bu durum ortaya çıkar ve bu iki nesnenin 
+toplanamayacağıyla alakalı hata alırız
+
