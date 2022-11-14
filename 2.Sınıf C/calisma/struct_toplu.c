@@ -97,10 +97,12 @@ struct node *delete(struct node *head, int key)
     else //listedebirden fazla eleman bulunması ve istegimiz elemanı arama alanı
     {
         while (temp -> next -> data != key)
-        if(temp -> next -> next == NULL) //Listede birden fazla elaman bulunması ve istenilen elemaın bulunmaması durumu
         {
-            printf("İstediginiz eleman bulunmamaktadır");
-            return head;
+            if(temp -> next -> next == NULL) //Listede birden fazla elaman bulunması ve istenilen elemaın bulunmaması durumu
+            {
+                printf("İstediginiz eleman bulunmamaktadır");
+                return head;
+            }
         }
         struct node *temp1 = temp -> next; //if kosulu da islemediğinde istediğimiz elemana ulaştık demektir
         temp -> next = temp -> next -> next; //burda tempin listenin sonunu göstermesini sağlıyoruz
