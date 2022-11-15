@@ -1,0 +1,19 @@
+flyweight
+bilgi tekrarını engellemeyi hedefler
+yapıca ayni elemanlari tekrar olusturmaktansa kopyalarini olusturup
+bunlari ortak bir noktada tutup paylastirma yapilir.
+
+visitor
+siniflarin icerisinde degisiklik yapmadan fonksiyonellik ekleme imkani sunar
+uygulamalarda belirli siniflara içerisinde degisiklik yapmadan yeni fonksiyon
+ekleme imkani sunar
+
+composite
+nesneleri agac yapilari halinde olusturmanıza ve bu agacin dallari ile tek tek nesnelermis
+gibi calismaniza olanak veren bir tasarim kalibidir
+
+strategy
+strategy kalibi bir algoritma ailesi olusturup her birini farkli sinifa yerlestirerek 
+nesneleri birbiri arasinda degisebilir hale getirmeyi saglayan tasarim desenidir
+
+
