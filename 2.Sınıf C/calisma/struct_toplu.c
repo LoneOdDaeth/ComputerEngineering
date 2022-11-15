@@ -79,12 +79,7 @@ int count(struct node *head)
     return counter;
 }
 
-int count_recursive(struct node *head) 
-{
-    if (head == NULL)
-        return 0;
-    return count_recursive(head->next) + 1;
-}
+
 
 void print(struct node *head)
 {
