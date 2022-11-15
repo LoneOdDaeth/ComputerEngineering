@@ -79,6 +79,13 @@ int count(struct node *head)
     return counter;
 }
 
+int count_recursive(struct node *head) 
+{
+    if (head == NULL)
+        return 0;
+    return count_recursive(head->next) + 1;
+}
+
 void print(struct node *head)
 {
     if (head == NULL)
@@ -89,7 +96,14 @@ void print(struct node *head)
         printf("%d\t", temp -> data);
         temp = temp -> next;
     }
+}
 
+void print_recursive(struct node *head) 
+{
+    if(head == NULL)
+        return;
+    printf("%d\t", head -> data);
+    print_recursive (head -> next);
 }
 
 void listinfo(struct node *head)
