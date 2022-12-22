@@ -1,0 +1,10 @@
+struct yapısında büütn elemanlar pointer ile tutulur.
+"" -> next dediğin zaman bir sonraki elemana geçersin (struct yapısından dolayı)
+struct yapısı resim de bulunmakta
+void destroy(struct node *head); metodunda tanımladıgımız temp degskenine deger atamamızın 
+sebebi ilerde headin icindeki degerleri ona atayarak sileecegimiz icin
+delete fonksiyonunda 
+1- listenin bos olma durumu
+2- bizim elemanin ilk dugumde olma durumu
+3- liste tek dugumden mi olusuyor
+3- diger durumlar icin arama
