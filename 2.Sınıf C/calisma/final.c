@@ -126,70 +126,69 @@
 //         printf("Girdiginiz ifade bir palindromdur!\n");  
 // }
 
-//------------------------------------------------------------------------- AĞAÇLAR(Trees) -------------------------------------------------------------------------------//
+// //------------------------------------------------------------------------- AĞAÇLAR(Trees) -------------------------------------------------------------------------------//
 
-// #include <stdio.h>
-// #include <conio.h>
-// #include <stdlib.h>
-// struct node { 
-// 	int data; 
-// 	struct node *left; 
-// 	struct node *right; 
-// }; 
-// typedef struct node BTREE; 
-// BTREE *new_node(int data) { 
-// 	BTREE *p = (BTREE*) malloc(sizeof(BTREE)); 
-// 	p -> data = data; 
-// 	p -> left = NULL; 
-// 	p -> right = NULL; 
-// 	return p; 
-// } 
-// BTREE *insert(BTREE *root, int data) { // root'u verilmiş ağaca ekleme yapılacak 
-// 	if(root != NULL) { 
-// 		if(data < root -> data) 
-// 			root -> left = insert(root -> left, data); 
-// 		else 
-// 			root -> right = insert(root -> right, data); 
-// 	}
-// 	else 
-// 		root = new_node(data); 
-// 	return root; 
-// } 
-// void preorder(BTREE *root) { 
-// 	if(root != NULL) { 
-// 		printf("%3d ", root -> data); 
-// 		preorder(root -> left); 
-// 		preorder(root -> right); 
-// 	} 
-// } 
-// void inorder(BTREE *root) { 
-// 	if(root != NULL) { 
-// 		inorder(root -> left); 
-// 		printf("%3d ", root -> data); 
-// 		inorder(root -> right); 
-// 	}
-// } 
-// void postorder(BTREE *root) { 
-// 	if(root != NULL) { 
-// 		postorder(root -> left); 
-// 		postorder(root -> right); 
-// 		printf("%3d ", root -> data); 
-// 	} 
-// } 
-// int main() { 
-// 	BTREE *myroot = NULL; 
-// 	int i = 0; 
-// 	do { 
-// 		printf("\n\nAgaca veri eklemek icin sayi giriniz...\nSayi = "); 
-// 		scanf("%d", &i); 
-// 		if(i != -1) 
-// 			myroot = insert(myroot, i); 
-// 		} while(i != -1); 
-// 	preorder(myroot); 
-// 	printf("\n"); 
-// 	inorder(myroot); 
-// 	printf("\n"); 
-// 	postorder(myroot); 
-// 	getch(); 
-// 	return 0; 
+// struct node
+// {
+//     int data;
+//     struct node *left;
+//     struct node *right;
+// };
+
+// typedef struct node BTREE;
+
+// BTREE *new_node(int key)
+// {
+//     BTREE *p = (BTREE *)malloc(sizeof(BTREE));
+//     p -> data = key;
+//     p -> left = NULL;
+//     p -> right = NULL;
+//     return(p);
+// }
+
+// BTREE *insert(BTREE *root, int data) // ağaça eleman ekleme
+// {
+//     if(root != NULL) // ilk eleman boş değilse
+//     {
+//         if(data < root -> data) // eklenecek elemanın küçük veya büyük olduğu kontrol edilir.
+//             root -> left = insert(root -> left, data); // küçükse sol tarafa
+//         else
+//             root -> right = insert(root -> right, data); // büyükse sağ tarafa
+//     }
+//     else
+//         root = new_node(data); // eleman yoksa dümdüz eklenir
+//     return(root);
+// }
+
+// // preorder: İlk önce kök yazılır, devamında sol tarafa geçilir, eğer solda eleman yoksa sağ tarafa geçilir.
+// void preorder(BTREE *root) // preorder sıralama
+// {
+//     if(root != NULL)
+//     {
+//         printf("%d ", root -> data);
+//         preorder(root -> left);
+//         preorder(root -> right);
+//     }
+// }
+
+// // inorder: sol taraf yazılır sonra kök sonra sağ taraf
+// void inorder(BTREE *root) // postorder sıralama
+// {
+//     if(root != NULL)
+//     {
+//         inorder(root -> left);
+//         printf("%d ", root -> data);
+//         inorder(root -> right);
+//     }
+// }
+
+// // postorder: sol taraf sonra sağ taraf sonra kök 
+// void postorder(BTREE *root) // postorder sıralama
+// {
+//     if(root != NULL)
+//     {
+//         postorder(root -> left);
+//         postorder(root -> right);
+//         printf("%d ",root -> data);
+//     }
 // }

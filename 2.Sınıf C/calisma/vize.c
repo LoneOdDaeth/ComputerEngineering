@@ -208,11 +208,11 @@
 //     {
 //         struct node *temp = (struct node *)malloc(sizeof(struct node));
 //         struct node *last = head;
+//         temp -> data = key;
 //         while(last -> next != head)
 //             last = last -> next;
 //         temp -> next = head;
 //         last -> next = temp;
-//         head = temp;
 //     }
 // }
 
@@ -229,7 +229,7 @@
 //         struct node *last = head;
 //         while(last -> naxt != NULL)
 //             last = last -> next;
-//         last -> next = (struct node *)malloc(sizeof(struct node));
+//         last -> next = (struct node *)malloc(sizeof(struct node))
 //         last -> next -> next = head;
 //         last -> next -> data = key;
 //     }
@@ -278,7 +278,7 @@
 //     {
 //         head = (struct node *)malloc(sizeof(struct node));
 //         head -> data = key;
-//         head -> next = head;
+//         head -> next = NULL;
 //         head -> prev = NULL;
 //     }
 //     else
@@ -287,7 +287,7 @@
 //         temp -> data = key;
 //         temp -> next = head;
 //         temp -> prev = NULL;
-//         head -> prev = NULL;
+//         head -> prev = prev;
 //         head = temp;
 //     }
 // }
