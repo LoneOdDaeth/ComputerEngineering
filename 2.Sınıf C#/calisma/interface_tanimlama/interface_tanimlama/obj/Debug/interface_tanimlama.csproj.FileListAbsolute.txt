@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\bin\Debug\interface_tanimlama.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\bin\Debug\interface_tanimlama.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\bin\Debug\interface_tanimlama.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\obj\Debug\interface_tanimlama.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\obj\Debug\interface_tanimlama.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\obj\Debug\interface_tanimlama.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\obj\Debug\interface_tanimlama.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\interface_tanimlama\interface_tanimlama\obj\Debug\interface_tanimlama.pdb

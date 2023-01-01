@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\bin\Debug\Final.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\bin\Debug\Final.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\bin\Debug\Final.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\obj\Debug\Final.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\obj\Debug\Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\obj\Debug\Final.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\obj\Debug\Final.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\Final\Final\obj\Debug\Final.pdb

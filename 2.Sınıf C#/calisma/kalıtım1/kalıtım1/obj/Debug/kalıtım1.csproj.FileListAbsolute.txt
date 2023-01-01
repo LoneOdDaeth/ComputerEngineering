@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\bin\Debug\kalıtım1.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\bin\Debug\kalıtım1.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\bin\Debug\kalıtım1.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\obj\Debug\kalıtım1.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\obj\Debug\kalıtım1.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\obj\Debug\kalıtım1.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\obj\Debug\kalıtım1.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\kalıtım1\kalıtım1\obj\Debug\kalıtım1.pdb

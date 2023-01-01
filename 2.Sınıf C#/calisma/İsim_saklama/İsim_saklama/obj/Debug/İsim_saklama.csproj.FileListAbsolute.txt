@@ -1,0 +1,8 @@
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\obj\Debug\İsim_saklama.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\obj\Debug\İsim_saklama.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\obj\Debug\İsim_saklama.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\bin\Debug\İsim_saklama.exe.config
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\bin\Debug\İsim_saklama.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\bin\Debug\İsim_saklama.pdb
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\obj\Debug\İsim_saklama.exe
+C:\Users\oguz\ders\nesneye_yonelik\C#\calisma\İsim_saklama\İsim_saklama\obj\Debug\İsim_saklama.pdb

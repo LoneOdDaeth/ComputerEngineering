@@ -1,0 +1,32 @@
+private ---> ogeye sadece tanimlanmış olduğu class'in icerisinde erisilebilir. fonksiyon yada property uzerinden erisim saglanabilir.
+
+protacted ---> ogeye sadece tanimlanmis oldugu class yada o classdan turetilmis farklı bir classdan erisim saglanabilir.
+
+internal ---> ogeye DLL yada EXE dosyasinin icerisinden erisilebilir. Icerde kisitlama olmaz ama disadan erisim yoktur.
+
+protected internal ---> ogeye sadece tanimlandigi class yada tretilen class icerisinden, assembly kisimlarinden erisim saglanir.
+Ayni assembly icerisinde olmasalar bile classlar icerisinde erisim olur.
+
+Eger belirtec kullanilmazsa ---> Internal classlar icin default ozelliktir. Class icerisindeki ogeler ise private dir.
+
+Bilincsiz saklama(gizleme) ---> hem ana hemde alt sınıfta ayni isimli eleman varsa ana siniftaki eleman gizlenir.
+
+Soyut siniflar ---> Diger siniflar tarafindan kullanilmak amaciyla hazirlanmistir. Nesne uretilmez. Soyut metotlar icerebilir
+
+Interface ---> İcerisinde kod olmayan, diger siniflara rehber olmasi amaciyla olusturulan yapilardir.
+
+Sealed ---> Siniflarin kalitim islemini engellemek icin kullanilir. Sealed bir sinif icin kullanilirsa kalitimi, bir uye icin uygulanırsauyenin override edilmesini engeller.
+
+Numaralandirma(enum) ---> Kod icerisinde sayisal karsilastirma ve islem gerektiren yerlerde yazilimci icin okunabilirliği artiran yardimci bir yapidir.
+orn: enum Gunler {Pazartesi = 1, Sali = 2, Carsamba = 3, Persembe = 4, Cuma = 5, Cumartesi = 6, Pazar = 7};
+
+Nitelikler(Attributes) ---> Sinif, metot yada diger uye elemanlarına ekstra bilgiler eklemek icindir. Bu elemanlarin bir ust kismina koseli parantezler konarak yazilir.
+
+Yansima(Reflection) ---> Bir kodda bulunan type methods ve fields larin mate verilerini tanimlama surecidir.
+
+CLSCompliantAttribute Attribute ---> Belirli bir kod bolgesinin ortak dirl belirtimi ile uyumlu olup olmadıgını gosterir.
+
+
+Virtual ---> Temel sınıf içerisinde bildirilmis ve turemis sinif icinde tekrar bildirilen mototlar
+
+soyut methods ---> soyut sınıfların için eiçine kadar bekle beni. 
