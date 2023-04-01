@@ -1,0 +1,11 @@
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\bin\Debug\timer.exe.config
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\bin\Debug\timer.exe
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\bin\Debug\timer.pdb
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.Form1.resources
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.Properties.Resources.resources
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.csproj.GenerateResource.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.exe
+C:\Users\oguz\ders\Görsel_Programlama\ders\timer\timer\obj\Debug\timer.pdb
