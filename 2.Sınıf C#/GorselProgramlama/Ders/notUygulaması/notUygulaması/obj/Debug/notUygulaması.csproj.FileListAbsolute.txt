@@ -1,0 +1,11 @@
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\bin\Debug\notUygulaması.exe.config
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\bin\Debug\notUygulaması.exe
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\bin\Debug\notUygulaması.pdb
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.Form1.resources
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.Properties.Resources.resources
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.csproj.GenerateResource.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.exe
+C:\Users\oguz\ders\Görsel_Programlama\ders\notUygulaması\notUygulaması\obj\Debug\notUygulaması.pdb
