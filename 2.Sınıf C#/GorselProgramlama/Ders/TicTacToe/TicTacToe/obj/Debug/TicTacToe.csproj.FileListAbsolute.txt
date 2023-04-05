@@ -1,0 +1,12 @@
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Form1.resources
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Form2.resources
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\oguz\ders\Görsel_Programlama\Ders\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
