@@ -1,0 +1,11 @@
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\bin\Debug\hafizaOyunu.exe.config
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\bin\Debug\hafizaOyunu.exe
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\bin\Debug\hafizaOyunu.pdb
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.csproj.AssemblyReference.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.Form1.resources
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.Properties.Resources.resources
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.csproj.GenerateResource.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.csproj.CoreCompileInputs.cache
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.exe
+C:\Users\oguz\ders\Görsel_Programlama\Ders\hafizaOyunu\hafizaOyunu\obj\Debug\hafizaOyunu.pdb
