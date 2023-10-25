@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Selim Oguz Şahin",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20231005-v1.21.0" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": -3.6, "left": -169, "attrs": { "color": "blue" } },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -3.6,
+      "left": -140.2,
+      "attrs": { "color": "red" }
+    }
+  ],
+  "connections": [
+    [ "led1:C", "pico:GND.2", "green", [ "v38.4", "h160" ] ],
+    [ "led1:A", "pico:GP9", "green", [ "v76.8", "h9.6" ] ],
+    [ "led2:C", "pico:GND.2", "green", [ "v38.4", "h0.4" ] ],
+    [ "led2:A", "pico:GP8", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
