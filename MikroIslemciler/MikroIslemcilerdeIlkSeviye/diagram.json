@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Selim Oguz Şahin",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20231005-v1.21.0" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": -22.8, "left": -121, "attrs": { "color": "red" } }
+  ],
+  "connections": [ [ "led1:C", "pico:GND.3", "green", [ "v0" ] ], [ "led1:A", "pico:GP8", "green", [ "v0" ] ] ],
+  "dependencies": {}
+}
