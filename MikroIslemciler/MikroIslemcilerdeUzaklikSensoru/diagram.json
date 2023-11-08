@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Selim Oguz Şahin",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20231005-v1.21.0" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -142.5,
+      "left": 72.7,
+      "attrs": { "distance": "400" }
+    }
+  ],
+  "connections": [
+    [ "ultrasonic1:GND", "pico:GND.5", "black", [ "v0" ] ],
+    [ "ultrasonic1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "pico:GP27", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "pico:GP21", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

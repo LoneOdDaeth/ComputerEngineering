@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Selim Oguz Şahin",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20231005-v1.21.0" }
+    },
+    {
+      "type": "wokwi-ntc-temperature-sensor",
+      "id": "ntc1",
+      "top": -151,
+      "left": 37.8,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "ntc1:GND", "pico:GND.5", "black", [ "h76.8", "v307.2", "h28.8" ] ],
+    [ "ntc1:VCC", "pico:3V3", "red", [ "h57.6", "v163.2" ] ],
+    [ "ntc1:OUT", "pico:GP26", "green", [ "h38.4", "v201.5" ] ]
+  ],
+  "dependencies": {}
+}
