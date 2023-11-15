@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "Selim Oguz Şahin",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20231005-v1.21.0" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -94.5,
+      "left": 130.3,
+      "attrs": { "distance": "85" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -195.8,
+      "left": -249.4,
+      "rotate": 270,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "ultrasonic1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "pico:GP27", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "pico:GP21", "green", [ "v0" ] ],
+    [ "ultrasonic1:GND", "pico:GND.5", "black", [ "v0" ] ],
+    [ "lcd1:GND", "pico:GND.4", "black", [ "v0" ] ],
+    [ "lcd1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "lcd1:SDA", "pico:GP12", "green", [ "v0" ] ],
+    [ "lcd1:SCL", "pico:GP11", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
