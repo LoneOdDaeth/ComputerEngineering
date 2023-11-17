@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlk Deneme</title>
+</head>
+<body>
+    <h2>Javascript ile neler nesnelerin öznetiliklerini değiştirme</h2>
+    <img src="resim/manzara.jpg" id="box" style="width: 100px;">
+
+    <p id="Kutu"></p>
+
+    <button onclick="document.getElementById('box').src='resim/kapali.jpg'">kutuyu kapat</button>
+
+    <button onclick="document.getElementById('box').src='resim/acik.jpg'">kutuyu aç</button>
+
+    <button onclick="document.getElementById('box').style.display='none'">resmi gizle</button>
+
+    <button onclick="document.getElementById('box').src='resim/manzara.jpg'">resmi göster</button>
+
+    <script>
+        document.getElementById("kutu").innerHTML="Javascript ile eleman içine yazdırılan yazı";
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Tahmin Etme Oyunu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Kelime Tahmini</h1>
+    <p id="wordDisplay"></p>
+    <p>Harfleri tahmin et:</p>
+    <input type="text" id="guessInput">
+    <button onclick="guessLetter()">Tahmin Et</button>
+    <p id="message"></p>
+    <p id="attempts">Kalan Haklar: <span id="remainingAttempts">6</span></p>
+    <button onclick="restartGame()">Yeniden Başla</button>
+    <script src="script.js"></script>
+</body>
+</html>
