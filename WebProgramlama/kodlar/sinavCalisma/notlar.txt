@@ -1,0 +1,48 @@
+html nedir
+bootstrap nedir
+vize final büt hesaplama
+try catch hesaplama
+5 sunucu, 1 ini detaylı açıkla
+
+html:
+html web sayfalarını oluşturmak için kullanılan bir dildir. Resim, metin ve ses formatında içeriklerin web sayfasında görüntülenmesini sağlar
+
+bootstrap:
+Front-End yazılım geliştiriciler için geliştirilmiş açık kaynak kodlu ve ücretsiz bir CSS çatısıdır.
+
+Sorular:
+Web teknolojisinin atası olarak sayılan ve Amerikan İleri Araştırma Projeleri Kurumu tarafından
+geliştirilen proje aşağıdakilerden hangisidir?
+Arpanet
+
+Alan adı sistemi olan DNS, hangi yıl hayata geçmiştir?
+1984
+
+World Wide Web’in mucidi olarak belirtilen ve CERN’de yazılım mühendisi olarak çalışmış kişi
+aşağıdakilerden hangisidir?
+Tim Berners - Lee
+
+Sunucularla ilgili aşağıdaki ifadelerden hangisi yanlıştır?
+Sadece Linux işletim sistemi çalıştırması
+
+E-posta sunucularının kullandığı iletişim protokolü aşağıdakilerden hangisidir?
+SMTP
+
+Geliştirilen bir web sitesinin web ağı üzerinden yayınlanabilmesi için web sitesine ait tüm dosyalar
+aşağıdaki sunuculardan hangisine yüklenmelidir?
+Web sunucusu
+
+Dosya transfer protokolü olarak adlandırılan ve web ağı üzerindeki sistemlerin birbirleriyle dosya
+paylaşımı için kullandıkları protokol aşağıdakilerden hangisidir?
+FTP
+
+Bir web tarayıcısının adres çubuğuna “http://www.anadolu.edu.tr/akademik/fakulteler/152/egitim-fakultesi/genel-bilgi.html” ifadesi yazılarak
+ilgili sayfa görüntülenmek istediğinde web tarayıcısının bağlanmak isteyeceği sunucunun alan adı aşağıdakilerden hangisidir?
+anadolu.edu.tr
+
+İçerisindeki verilerin kullanıcının istekleri ve çeşitli durumlara göre değişiklik gösterdiği bu tür web sayfalarına ne ad verilir?
+Değişken içerikli web sayfası
+
+Bir web sayfası içerisindeki nesneler üzerinde daha hassas ve esnek biçimlendirme niteliği tanımlanmak
+istendiğinde aşağıdaki yapılardan hangisi kullanılmalıdır?
+CSS
