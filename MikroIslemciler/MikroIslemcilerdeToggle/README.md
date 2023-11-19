@@ -1,1 +1,1 @@
-![Alt text](<İsimsiz video ‐ Clipchamp ile yapıldı.gif>)
+![Alt text](image.png)
