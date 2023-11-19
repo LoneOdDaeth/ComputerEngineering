@@ -18,7 +18,7 @@ Bu projeye katkıda bulunmak istiyorsanız, lütfen aşağıdaki adımları taki
 5. `Pull` isteği oluşturun.
 
 ## İletişim
-Sorularınız veya geri bildirimleriniz için [instagram](https://instagram/loneoddaeth), [linkedin](https://www.linkedin.com/in/s-o%C4%9Fuz-%C5%9Fahin-554727234/) veya [email](mailto:selimoguz38@outlook.com) üzerinden ulaşabilirsiniz.
+Sorularınız veya geri bildirimleriniz için [instagram](https://www.instagram.com/loneoddaeth/), [linkedin](https://www.linkedin.com/in/s-o%C4%9Fuz-%C5%9Fahin-554727234/) veya [email](mailto:selimoguz38@outlook.com) üzerinden ulaşabilirsiniz.
 
 # ---------------------------------------------------------------
 
@@ -44,4 +44,4 @@ If you want to contribute to this project, please follow these steps:
 
 ## Contact
 
-For your questions or feedback, you can reach me on [Instagram](https://instagram/loneoddaeth), [LinkedIn](https://www.linkedin.com/in/s-o%C4%9Fuz-%C5%9Fahin-554727234/), or [email](mailto:selimoguz38@outlook.com).
+For your questions or feedback, you can reach me on [Instagram](https://www.instagram.com/loneoddaeth/), [LinkedIn](https://www.linkedin.com/in/s-o%C4%9Fuz-%C5%9Fahin-554727234/), or [email](mailto:selimoguz38@outlook.com).
