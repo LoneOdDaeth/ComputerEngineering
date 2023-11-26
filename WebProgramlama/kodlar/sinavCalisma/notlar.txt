@@ -11,6 +11,7 @@ bootstrap:
 Front-End yazılım geliştiriciler için geliştirilmiş açık kaynak kodlu ve ücretsiz bir CSS çatısıdır.
 
 Sorular:
+1. Ünite
 Web teknolojisinin atası olarak sayılan ve Amerikan İleri Araştırma Projeleri Kurumu tarafından
 geliştirilen proje aşağıdakilerden hangisidir?
 Arpanet
@@ -46,3 +47,47 @@ Değişken içerikli web sayfası
 Bir web sayfası içerisindeki nesneler üzerinde daha hassas ve esnek biçimlendirme niteliği tanımlanmak
 istendiğinde aşağıdaki yapılardan hangisi kullanılmalıdır?
 CSS
+
+2. Ünite
+Aşağıdakilerden hangisi htmlde her etiketin yazımında mutlaka kullanılması gereken işarettir?
+< işareti
+
+<b> etiketi metin üzerinde aşağıdaki işlevlerden hangisini yerine getirmektedir?
+Koyu yapma(b = bold)
+
+Html’de kelimeler arasında boşluk sayısını artırmak isteyen bir kullanıcı hangi özel karakter setini kullanmalıdır?
+&nbsp;
+
+Türkçe karakter sorunu yaşan bir kullanıcı <meta> etiketinde aşağıdaki hangi parametreyi kullanmalıdır?
+Charset
+
+Sayfa içerisinde kullanılacak başlık türünü ve dolayısı ile büyüklüğünü belirlemek için kullanılan etiket aşağıdakilerden hangisidir?
+<h>
+
+Aşağıdakilerden hangisinde yazının tipini (arial, verdana vb.) değiştirmek isteyen bir kullanıcının kullanması gereken etiket ve parametre birlikte
+ve doğru olarak verilmiştir?
+font – face
+
+<li> etiketi aşağıdaki amaçlardan hangisi için kullanılır?
+Listelere seçenek eklemek
+
+Web sayfasından başka bir web sayfasına geçiş sağlamak isteyen bir tasarımcı hangi html etiketini kullanmalıdır?
+<a href=
+
+Metinlerde stil kullanımında text-indent aşağıdaki işlevlerden hangisini yerine getirmektedir?
+Paragraf girintisi
+
+Bir html içerisinde oluşturacağı tüm paragraflardaki yazının kırmızı olmasını isteyen bir tasarımcı aşağıdaki metin tabanlı css stillerinden hangisini
+kullanmalıdır?
+P { color: red;}
+
+
+
+
+
+
+
+
+
+
+
