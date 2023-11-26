@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Try Catch Throw</title>
+</head>
 <body>
 
-<p>Please input a number between 5 and 10:</p>
-
-<input id="demo" type="text">
-<button type="button" onclick="myFunction()">Test Input</button>
-<p id="p01"></p>
+<input type="text" id="kod">
+<div id="bilgi"></div>
 
 <script>
-function myFunction() {
-  const message = document.getElementById("p01");
-  message.innerHTML = "";
-  let x = document.getElementById("demo").value;
-  try {
-    if(x.trim() == "") throw "empty";
-    if(isNaN(x)) throw "not a number";
-    x = Number(x);
-    if(x < 5) throw "too low";
-    if(x > 10) throw "too high";
+  var girisKodu = document.getElementById("kod");
+  var aciklama = document.getElementById("bilgi");
+
+  girisKodu.onkeypress = function() {
+    aciklama.textContent = "";
   }
-  catch(err) {
-    message.innerHTML = "Input is " + err;
+
+  girisKodu.onblur = function() {
+    try {
+      if (isNaN(girisKodu.value)) throw "Giriş Kodu Rakamlardan Oluşmalıdır!";
+      if (girisKodu.value.length < 5) throw "5 karakterden kısa giriş kodu olmaz!";
+      if (girisKodu.value.length > 5) throw "En fazla 5 haneli olmalı!";
+    } catch(e) {
+      aciklama.textContent = e;
+      girisKodu.focus();
+    }
   }
-}
 </script>
 
 </body>
