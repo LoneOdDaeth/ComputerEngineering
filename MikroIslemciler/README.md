@@ -1,5 +1,6 @@
 # **Seviye Takibi İçin Kullanılacak Olan Sıra**
 
++ [Ardiuno](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeArdiunoDirencOrnegi)
 + [İlk Seviye](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeIlkSeviye)
 + [Lambda](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeLambda)
 + [Toggle](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeToggle)
@@ -11,6 +12,7 @@
 
 # **Sequence To Be Used For Level Tracking**
 
++ [Ardiuno](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeArdiunoDirencOrnegi)
 + [First Level](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeIlkSeviye)
 + [Lambda](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeLambda)
 + [Toggle](https://github.com/LoneOdDaeth/ComputerEngineering/tree/main/MikroIslemciler/MikroIslemcilerdeToggle)
