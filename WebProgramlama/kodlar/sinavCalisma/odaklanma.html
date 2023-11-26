@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odaklanma</title>
+</head>
+<body>
+    
+    <script>
+        function girisBicimi(elm){
+            elm.style.background = "green";
+        }
+        function normalBicim(elm){
+            elm.style.background = "white"
+        }
+    </script>
+
+    <table border = "1">
+        <tr><td>Adı:</td><td><input type="text" onfocus="girisBicimi(this)" onblur="normalBicim(this)"><br></td></tr>
+        <tr><td>Soyadı:</td><td><input type="text" onfocus="girisBicimi(this)" onblur="normalBicim(this)"><br></td></tr>
+        <tr><td>Bölümü:</td><td><input type="text" onfocus="girisBicimi(this)" onblur="normalBicim(this)"><br></td></tr>
+        <tr><td>Sınıfı:</td><td><input type="text" onfocus="girisBicimi(this)" onblur="normalBicim(this)"><br></td></tr>
+        <tr><td colspan="2"><button type="button">Kaydet</button></td></tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizideki en küçük ve en büyük karakter</title>
+</head>
+<body>
+    
+    <h3>En Büyük/En Küçük eleman</h3>
+    <div id="bilgi"></div>
+
+    <script>
+        let arr = [1,45,78,96,-98,52,4,859];
+        var enb = arr[0];
+        var enk = arr[0];
+
+        for(var i = 0; i < arr.length; i++){
+            if(enb < arr[i])
+                enb = arr[i];
+
+            if(enk > arr[i])
+                enk = arr[i];
+        }
+
+        document.getElementById("bilgi").innerHTML = "En küçük eleman: " + enk + " ve en büyük eleman: " + enb;
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farenin Koordinatları</title>
+
+    <style>
+        body{background: #ca1e1e;}
+        #cisim{
+            background: #e2df30;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="cisim"></div>
+
+    <script>
+
+        var cisim = document.getElementById("cisim");
+        cisim.style.position="absolute";
+        window.onmousemove=function(konum){
+            cisim.style.top = konum.clientY+20+"px";
+            cisim.style.left = konum.clientX+10+"px";
+            console.log(konum.offsetX);
+        }
+
+    </script>
+
+</body>
+</html>
