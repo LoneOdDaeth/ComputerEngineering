@@ -4,6 +4,21 @@ vize final büt hesaplama
 try catch hesaplama
 5 sunucu, 1 ini detaylı açıkla
 
+http:
+web sayfalarını istemcilere ileten bir web sunucusudur/protokolüdür.
+
+smtp:
+e posta göndermek ve almak için kullanılan bir ileti transfer protokolüdür.
+
+https:
+internet üzerinde güvenli iletişimi sağlayan bir iletişim protokolüdür. web sayfalarının veri iletimini şifreleyerek güvenli hale getirir.
+
+ftp:
+dosya transferi için kullanılan bir protokldür/sunucudur.
+
+dns:
+internet üzerindeki alan adlarını ip adreslerine çevirerek, bilgisayarların ve cihazların birbiriyle iletişim kurmasını sağlayan protokol/sunucudur.
+
 html:
 html web sayfalarını oluşturmak için kullanılan bir dildir. Resim, metin ve ses formatında içeriklerin web sayfasında görüntülenmesini sağlar
 
