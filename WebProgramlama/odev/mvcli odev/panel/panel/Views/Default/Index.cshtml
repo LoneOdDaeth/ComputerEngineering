@@ -1,0 +1,38 @@
+﻿@using panel.Models;
+@model List<panel_info>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kullanıcı Listesi</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kullanıcı Id</th>
+        <th>Kullanıcı Adı</th>
+        <th>Kullanıcı Şifresi</th>
+    </tr>
+
+    @if (Model != null)
+    {
+        foreach (var kayit in Model)
+        {
+            <tr>
+                <td>@kayit.id</td>
+                <td>@kayit.username</td>
+                <td>@kayit.password</td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="3">Model null olduğu için veri listelenemiyor.</td>
+        </tr>
+    }
+</table>
+<div class="alert alert-info">
+    <strong>@(ViewBag.sayi ?? 0)</strong> adet user listelendi.
+</div>

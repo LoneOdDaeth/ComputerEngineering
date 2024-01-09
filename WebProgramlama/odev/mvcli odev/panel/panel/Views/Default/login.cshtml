@@ -1,0 +1,109 @@
+﻿@model panel.Models.panel_info
+@{
+    ViewBag.Title = "panel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    // TempData üzerinden başarılı giriş mesajını al
+    var successMessage = TempData["SuccessMessage"] as string;
+    var errorMessage = TempData["ErrorMessage"] as string;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kullanıcı Giriş Paneli</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SERKAN TOGAL - www.ontedi.com" />
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            border-spacing: 0px;
+        }
+
+        #yonetim_giris_body {
+            background-color: #edf0f5;
+            font-family: "Verdana", Lucida Grande, Tahoma, Arial, sans-serif;
+            font-size: 13px;
+        }
+
+        #yonetim_giris_kapsayici {
+            margin: 15% auto;
+            width: 297px;
+            height: 235px;
+            padding: 37px 25px 0 25px;
+            background-color: white;
+        }
+
+            #yonetim_giris_kapsayici input[type=text], #yonetim_giris_kapsayici input[type=password] {
+                width: 190px;
+                padding: 0 5px 0 5px;
+                height: 46px;
+                border: 1px solid #e1e1e1;
+                margin-bottom: 12px;
+                border-radius: 5px;
+                color: #9e9696;
+                float: left;
+            }
+
+            #yonetim_giris_kapsayici p {
+                width: 90px;
+                padding: 15px 5px 0 0;
+                float: left;
+                font-size: 13px;
+            }
+
+            #yonetim_giris_kapsayici input[type=submit] {
+                width: 295px;
+                height: 46px;
+                border: 1px solid #a2c359;
+                margin-bottom: 12px;
+                margin-left: -50px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                color: #525b3d;
+                background-color: #b3d175;
+                cursor: pointer;
+            }
+
+            #yonetim_giris_kapsayici span {
+                color: #990000;
+            }
+
+            #yonetim_giris_kapsayici a {
+                color: #0000CC;
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body id="yonetim_giris_body">
+    <form method="post" action="/Default/login">
+        <div id="yonetim_giris_kapsayici">
+            @if (!string.IsNullOrEmpty(successMessage))
+            {
+                <p style="color: green;">@successMessage</p>
+            }
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <p style="color: green;">@errorMessage</p>
+            }
+            <p>Kullanıcı Adı</p><input id="name" asp-for="username" name="username" type="text" />
+            <p>Şifre</p><input name="password" asp-for="password" type="password" />
+            <input type="submit" value="Giriş Yap" />
+        </div>
+    </form>
+</body>
+</html>
+
+<script>
+    var user = document.getElementById("name").value;
+    console.log(user);
+</script>
+
