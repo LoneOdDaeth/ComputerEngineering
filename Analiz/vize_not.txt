@@ -1,0 +1,284 @@
+notlar:
+doğru bir algoritma, çoğu zaman çalışan değil, tüm meşru girdiler için doğru çalışan algoritmadır
+
+uygulama ortamının yeteneklerinin tespiti: sorun anlaşıldıktan sonra algoritmanın amaçlandığı hesaplama cihazının yeteneklerini belirlememiz gerekir.
+bugünkü algoritmalarının büyük çoğunluğu hala RAM tabanlı, talimatların birbiri ardına verildiği, her seferde tek işlem yeteneğine sahip makinelerdir.
+bu makinelerde(von Neuman) çalışması için tasarlanan algoritmalara sıralı algoritma denir.
+
+kesin ve yaklaşık problem çözme seçimi: Sorunu tam olarak çözen algoritmaya kesin algoritma denir. yaklaşık çözene yaklaşım algoritması denir. 
+yaklaşım algoritmasının seçilmesinin sebepleri:
+    örneklerinin çoğu için tam olarak çözülemeyen önemli problemler olabilir(doğrusal olmayan denklem, belirli integrallerin değerlendirilmesi).
+    bir problemi tam olarak çözmek için mevcut algoritmalar, problemin içsel karmaşıklığı nedeniyle kabul edilemez derecede yavaş olabilir.
+    yaklaşım algoritması, problemi tam olarak çözen daha karmaşık bir algoritmanın parçası olabilir.
+
+algoritma tasarım teknikleri: bir algoritma tasarım tekniği, farklı alanlardaki projelere uygulanabilen, problemleri algoritmik olarak çözmeye yönelik genel bir yaklaşımdır
+algoritmayı ve veri yapılarını tasarlama: algoritmik bir problemi çözmek için işleyeceğiniz tasarım tekniklerinden birisi yada aynı anda bir kaçı kullanılabilir. uygunluk ve veri yapılarının seçimine dikkat edilmesi gerekir.
+
+algoritma belirleme yöntemleri:bir algoritma tasarladıktan sonra, onu bir şekilde belirtmemiz gerekir.
+günümüzde algoritmaları açıklamak için en yaygın kullanılan seçenekler:
+    sözde kodla açıklamak: program içerisinde yorum satırı şeklinde açıklamak
+    kelimelerle açıklama yazıya dökerek adımlar halinde kodun ne yaptığını açıklamak
+
+algoritmanın doğruluğunu kanıtlama: algoritmanın her meşru girdi için sonlu bir süre içinde gerekli bir sonucu verdiğini kanıtlanması
+örneğin öklid algoritmasının doğruluğu ebob(m,n) = ebob(m,m%n) eşitliğinin doğruluğundan kaynaklanır.
+her hangi bir algoritmanın yanlış olduğunu belirtmek için sadece 1 yanlış sonuca ihtiyacımız var.
+
+algoritmayı analiz etme:
+    verimlilik: iki tür verimlilik vardır. algoritmanın ne kadar hızlı çalıştığını gösteren zaman verimliliği
+                ne kadar fazladan bellek kullandığını gösteren alan verimliliği
+    basitlik: daha basit algoritmanın anlaşılması ve programlanması daha kolay olduğu için genellikle ortaya çıkan programlar daha az hata içerir.
+    genellik: algortimanın çözdüğü problemin genelliği ve kabul ettiği girdi setine göre belirlenir. örnek olarak 2 sayının aralarında asal olup olmadığını belirlemek
+              için bu iki sayının tek ortak böleninin 1 olduğunu kanıtlayan bir algoritma önerilebilir. fakat daha genel bir çözümle 2 sayı için en büyük ortak böleni 
+              hesaplayan ve 1 olup olmadığına bakan bir algoritma geliştirilebilir.
+
+algoritmayı kodlama: algoritma, nihai olarak bilgisayar programları olarak uygulanırken algoritmadan bir programa geçişin yanlış yada verimsiz yapılmaması gerekir. test etme
+                    ve hata ayıklama adımlarının uygulanması önemlidir.
+
+önemli problem türleri: sıralama - arama - string işlemler - graf problemleri - tümleşik problemler - geometrik problemler - nümerik problemler
+    sıralama: verilen listenin öğelerini artan bir sırada yeniden düzenlemektir. bir bilgi parçası seçilir(örnek: öğrenci numarası), bu parçaya anahtar denir. iki özellikleri önemlidir.
+    kararlı(stable): bir sıralama algoritması, girdisindeki herhangi 2 eşit öğenin göreli sırasını koruyorsa. örneğin alfabetik olarak sıralanmış bir öğrenci listemiz varsa ve bunu 
+    öğrenci not ortalamasına göre sıralamak istiyorsak gerekli olur. aynı not ortalamasına sahip algoritmalar, öğrencilerin hala alfabetik olarak sıralı olduğu bir liste vericektir.
+    yerinde(in-place): algoritmanın gerektirdiği ekstra bellek miktarıdır. birkaç bellek birimi dışında bellek gerektirmiyorsa.
+
+    arama: arama problemi, belirli bir kümede arama anahtarı adı verilen belirli bir değeri bulmakla ilgilenir. kararlılık(stability) sorunu yoktur. farklı iki sorun vardır. veri ögesine 
+    öğe ekleme ve silme.
+
+    string işlemler: bir metinde belirli bir kelimeyi arama problemi araştırmacıların özel ilgisini çekmiştir. buna dize eşleştirme(string matching) denir.
+
+    graf problemleri(gezgin satıcı problemi): algoritmanın en eski ve ilginç alanlarından birisidir. graflar, hem teorik hemde pratik nedenlerle çalışılması gereken ilginç bir konudur. temel graf algoritmaları
+    graf-geçiş algoritmaları(bir ağdaki tüm noktalara nasıl ulaşılabilir) - en kısa yol algoritmaları(iki şehir arası en iyi rota) - yönlendirilmiş kenarlı graflar için topolojik sıralama(
+    önkoşulları olan bir ders kümesi tutarlı mı yoksa kendi içinde çelişkili mi)
+
+    tümleşik problemler(kombinatoryal): özet bir bakış açısıyla, gezgin satıcı problemi ve graf boyama problemi buna örnektir. bunlar, belirli kısıtlamaları karşılayan bir permütasyon, bir kombinasyon veya bir alt küme gibi 
+    kombinatoryal bir nesne bulmayı amaçlayan problemlerdir. teorik ve pratik olarak tümleşik problemler hesaplamadaki en zor problemlerdir. zorluk sebepleri:
+        -kombinatoryal nesnelerin sayısı, problemin boyutuyla son derece hızlı bir şekilde büyür ve orta ölçekli örnekler için bile hayal edilemez büyüklüklere ulaşır.
+        -bu tür problemlerin çoğunu tam olarak kabul edilebilir bir sürede çözmek için bilinen hiçbir algoritma yoktur.
+    
+    geometrik problemler: noktalar, çizgiler ve çokgenler gibi geometrik nesnelerle ilgilenir. hesaplamalı geometri problemi için çalışacağımız algoritmalar:
+        -en yakın çift problemi: düzlemde verilen n adet nokta içinde aralarında en yakın olan çifti bulmak.
+        -dışbükey gvde problemi: verilen bir kümenin tüm nokralarını içeren en küçük dış bükey çokgeni bulmayı amaçlar.
+
+    nümerik problemler: geniş bir uygulama alanı olan sayısal problemlerdir. matematik nesneleri içerirler. denklemleri ve denklem sistemlerini çözme, belirli integralleri hesaplama, fonksiyonları değerlendirme vb. zorluklar:
+        -bu tip problemler ancak yaklaşık olarak çözülebilmektedir.
+        -bu tip problemler tipik olarak, bilgisayarda yaklaşık olarak temsil edilebilen gerçek sayıların manipüle edilmesini gerektirir.
+
+temel veri yapıları: ilgilenilen algoritmaların büyük çoğunluğu veriler üzerinde çalıştığından, verileri düzenleme şekilleri, algoritmaların tasarım ve analizinde kritik rol oynar. bir veri yapısı(data structure), ilgili veri 
+ögeleri organize etmenin belirli bir şeması olarak tanımlanabilir.
+veri öğeleri, istenilen probleme göre temel veri türlerinden(integer, char) olabileceği gibi veri yapıları(örneğinbirden fazla boyutlu diziler) da olabilir.
+
+lineer veri yapıları: en önemli iki temel veri yapısı dizi ve bağlantılı listedir. bir dizinin her bir elemanına, söz konusu elemanın dizinin neresinde olduğuna bakılmaksızın aynı sabir sürede erişilebilir. diziler veri yapıları
+uygulamak için kullanılır. en belirgin olani stringlerdir. sıfır ve birlerden oluşan dizilere bit dizileri veya ikili diziler denir. bağlantılı liste, her biri iki tür bilgi içeren düğüm adı verilen elemanların dizisidir. her düğüm
+veri ve pointer denen ve bağlantılı listenin diğer düğümlerine bağlantı bilgisi içerir. liste, veri öğelerininin sonlu bir dizisidir. iki özel liste türü, yığınlar ve kuyruklar özellikle önemlidir.
+    -yığınlar: ekleme ve silme işlemlerinin yalnızca sonda yapılabildiği bir listedir. bu uca tepe-üst(top) denir. eleman eklendiğinde push, silinde pop fonksiyonları çalışır. son giren ilk çıkar şeklinde çalışır. kavanoz mantığı.
+    -kuyruk: bir ucundan eleman eklenir diğer ucundan eleman çıkarılır. eleman çıkarma işlemi(dequeue) işleminin yapıldığı uca ön(front) ve eleman ekleme(enqueue) işleminin yapıldığı uca arka(rear) denir. ilk giren ilk çıkar.
+öncelik kuyruğu: bazı uygulamar, dinamik olarak değişen bir aday kümesi arasından en yüksek önceliğe sahip bir öğenin seçimini gerektirir. bu ihtiyacı karşılamaya çalışan veri yapısına denir.
+
+graflar(4. pdf): en son ayrıca bakılacak
+
+ağaçlar: ağaçlar, bağlı bir döngüsüz graflardır. döngüsü olmayan bağlı olması gerekmeyen graflar bir orman olarak isimlendirilir. ağaçlar grafların sahip olmadığı bazı özellikleri gösterir. sahip oldukları kenar sayısı, her zaman
+düğüm sayısından bir eksiktir. 
+    -köklü ağaçlar: bir ağaçtaki her iki düğüm için, bu düğümlerden birinden diğerine her zaman tam olarak bir basit yol olmasıdır. bu özellik, serbest bir ağaçta keyfi bir düğüm noktasını kök(root) seçmeyi mümkün kılar. herhangi
+    bir düğüm için, kökten o düğüme giden yoldaki düğümlere seçilen düğümün ataları denir. bir önceki seçilen düğümün ebeveyni olarak kabul edilir. seçilen düğüm çocuk olmuş olur. aynı ebeveyne sahip çocuklar kardeştir. torun mantığıda
+    aynı şekilde işler. bir düğümün tüm torunları kenarlarıyla beraber o düğümde köklenen ağacın bir alt ağacını oluşturur.
+    -sıralı ağaç: her düğümün tüm alt öğelerinin sıralandığı köklü bir ağaçtır. soldan sağa sıralandığını varsaymak uygundur. eğer sol tarafa daha küçük düğümler atandığı durumlarda, ikili arama ağaçları denir. algoritmaların çoğunun
+    verimliliği ağacın yüksekliğine bağlıdır.
+
+kümeler ve sözlükler: elemanlar olarak adlandırılan farklı öğelerin sırasız bir koleksiyonu olarak tanımlanabilir. kümeler bilgisayar uygulamalarında 2 farklı şekilde uygulanabilir:
+    -evrensel küme olarak adlandırılan büyük U kümesinin alt kümeleri olan kümeleri dikkate alır. bu işlem standart küme işlemlerini çok hızlı gerçekleştirmeyi mümkün kılar, ancak potansiyel olarak daha fazla depoloma alanı kullanır.
+    -kümelerin öğelerini belirtmek için liste yapısını kullanmaktır. kümeler ve listeler için iki temel ayrım noktası vardır:
+        -bir küme aynı ögeleri içeremez, liste ise içerebilir.
+        -bir küme, sırasız bir öğeler topluluğudur, bu nedenle elemanların sırasını değiştirmek kümeyi değiştirmez. listede durum tam tersidir.
+hesaplamada, bir küme veya çoklu kümeler için genellikle belirli bir öğeyi arama, yeni bir öğe ekleme ve koleysiyondan bir öğeyi silme işlemleri uygulanır. bu üç işlemi uygulayan veri yapısına sözlük(dictionary) denir.
+
+algoritma verimliliği analizinin temelleri: teknik anlamda bir algoritmanın verimliliğinin çalışma süresi ve bellek alanı kaynaklarına göre incelenmesidir. kesin ve nicel terimlerle incelenebilir.
+
+analiz çerçevesi: iki tür verimlilik vardır:
+    -zaman karmaşıklığı olarak da adlandırılan zaman verimliliği, söz konusu algoritmanın ne kadar hızlı çalıştığını gösterir.
+    -alan karmaşıklığı olarak da adlandırılan alan verimliliği, algoritmanın girdi ve çıktısı için ihtiyaç duyduğu alana ek olarak ihtiyaç duyduğu bellek birimi miktarını ifade eder.
+
+bir girdinin boyutunu ölçmek: hemen hemen bütün algoritmalar daha büyük girdiler verildiğinde daha uzun süre çalışır. algoritmanın verimliliği, algoritmanın girdi boyutunu belirten bir n parametresinin bir fonksiyonu olarak araştırılabilir.
+derecesi n olan bir p(x) = ax^n + (a-1)x^(n-1) ... 0 polinomu değerlendirme problemi için parametre, polinomun derecesi veya derecesinden 1 büyük olan katsayılarının sayısı olabilir.
+
+çalışma zamanını ölçmek için kullanılan birimler: bir algoritmanın çalışma süresini ölçmek için bazı standart ölçüm birimlerini(saniye veya milisaniye) kullanabiliriz. bununla birlikte, böyle bir yaklaşımın bazı dezavantajları vardır. belirli
+bir bilgisayarın hızına bağımlılık, algoritmayı uygulayan programın etkinliğini ölçmek istediğimiz için, bu yabancı faktörlere bağlı olmayan bir metriğe sahip olmak isteriz.
+yapılması gereken, algoritmanın temel işlem adı verilen en önemli işlemini, toplam çalışma süresine en fazla katkıyı sağlayan işlemi belirlemek ve temel işlemin kaç kez yürütüldüğünü hesaplamaktır.
+bir algoritmanın zaman verimliliğinin analizi için oluşturulan çerçeve, algoritmanın temel işleminin n boyutundaki girdiler üzerinde kaç kez yürütüldüğünü sayarak ölçmeyi temel alır.
+
+büyüme oranı: işlem sayısının büyüme oranı önemlidir. küçük girdiler için verimli ve verimsiz algoritmaların çalışma süreleri arasındaki fark ayırt edici değildir. örnek olarak n^2 olan ikinci dereceden fonksiyon dört kat artar. n! fonksiyonu çok
+daha fazla artar.
+
+en kötü durum, en iyi durum ve ortalama durum verileri: birçok algoritmada çalışma süresü yalnızca girdi boyutuna değil, aynı zamanda girdinin özelliklerine de bağlıdır. örneğin sıralı aramayı düşünelim. basit bir arama algoritmasında, eşleşen öğe
+listedeki son öğe olabilir. yada hiç var olmayabilir. bunlar en kötü duruma örnektir.
+en kötü durum verimliliği: bir algoritmanın n boyutundaki bir girdi için, algoritmanın o boyuttaki tüm olası girdiler arasında en uzun süre çalıştığı girdi için hesaplanan verimliliğidir. bir algoritmanın çalışma süresini üst sınırını belirleyerek 
+verimliliği hakkında çok önemli bilgiler sağlar. n boyutundaki herhangi bir örnek için çalışma süresinin maksimum çıkabileceği sınırı gösterir.
+en iyi durum verimliliği: bir algoritmanın n boyutundaki bir girdi için, algoritmanın o boyuttaki tüm olası girdiler arasında en hızlı çalıştığı girdi için hesaplanan verimliliğidir. en iyi durum en küçük girdi değildir. sıralı arama algoritmasında
+ilk öğe en iyi durum girdisidir. en kötü durum analizi kadar önemli değildir. 
+
+asimptotik notasyonlar ve temel verimlilik sınıfları: verimlilik analizi çerçevesi, bir algortimanın temel işlem sayısının büyüme oranına odaklanır. büyüme oranlarını karşılaştırmak ve sıralamak için üç notasyon kullanır. büyük O, büyük Ω(omega),
+büyük Θ(teta).
+büyük O: g(n) fonksiyonundan daha düşük veya aynı büyüme oranına sahip tüm fonksiyonların kümesidir.
+büyük Ω: g(n) fonksiyonundan daha yüksek veya aynı büyüme oranına sahip tüm fonksiyonların kümesidir
+büyük Θ: g(n) fonksiyonu ile aynı büyüme oranına sahip tüm fonksiyonların kümesidir.
+
+O-notasyonu: bir t(n) fonksiyonu tüm büyük n'ler için üstten g(n)'nin sabit bir katı ile sınırlandırılmışsa fonksiyonun O(g(n)) olduğu söylenir.
+Ω-notasyonu: bir t(n) fonksiyonu tüm büyük n'ler için alttan g(n)'nin sabit bit katı ile sınırlandırılmışsa fonksiyonun Ω(g(n)) olduğu söylenir.
+Θ-notasyonu: bir t(n) fonksiyonu tüm büyük n'ler için alttan ve üstten g(n)'nin sabit katları ile sınırlandırılmışsa fonksiyonun Θ(g(n)) olduğu söylenir.
+
+
+
+ünite soruları
+1. pdf
+1. soru:
+def oklitAlgorithm(n, m):
+    while(n != 0):
+        r = m % n
+        m = n
+        n = r
+    print(m)
+
+oklitAlgorithm(31415, 14142)
+
+yukarıdaki kodun adımlarını teker teker uygula
+
+2. soru:
+sorunun ilk kısmı için sayılar en başta swaplanır. çünkü küçük değerin modu kendisine eşittir. 
+sorunun ikinci kısmı için maksimum ilk adımda olur. yani 1 kere. sonrasında olmamasının sebebi değerlerin modu alındıkça küçülmesidir.
+
+3. soru:
+bütün sayılar kendi katlarına müdahale edebiliyor. durum böyle olunca tam kare olanlar en sonda açık kalıyor. geri kalanı kapalı kalıyor.
+
+2. pdf
+1. soru:
+köylü başlangıç olarak keçiyi geçirir. geri döner. köylü lahanayı karşıya geçirir. keçiyi geri getirir. kurdu karşıya geçirir. geri gelir. keçiyi de karşıya geçirir.
+
+2. soru:
+1 ve 2 numaralı kişi geçer. 1 numaralı kişi geri gelir. 3 ve 4 numaralı kişi geçer. 2 numaralı kişi geri döner. 1 ve 2 numaralı kişi karşıya beraber geçer. 17 saniye sürer.
+
+3. soru:
+if a != 0:
+    D = (b*b) - (4*a*c)
+    if D > 0:
+        temp = 2*a
+        x1 = (-b + sqrt(D))/temp
+        x2 = (-b - sqrt(D))/temp
+        return x1, x2
+    elif D == 0:
+        return -b/(2*a)
+    else:
+        return "gerçek kök yoktur."
+    
+    else:
+        if b != 0:
+            return -c / b
+        else:
+            if c == 0:
+                return "tüm gerçel sayilar."
+            else:
+                return "gerçek kök yoktur."
+
+4. soru:
+def find_min_difference(A):
+    n = len(A)
+    dmin = float('inf')  # sonsuz olarak başlatıyoruz
+
+    for i in range(n):
+        for j in range(n):
+            if i != j and abs(A[i] - A[j]) < dmin:
+                dmin = abs(A[i] - A[j])
+
+    return dmin
+
+3. pdf
+1. soru:
+def count_sort(A):
+    n = len(A)
+    Count = [0] * n
+    S = [0] * n
+    
+    for i in range(n):
+        Count[i] = 0
+    
+    for i in range(n - 1):
+        for j in range(i + 1, n):
+            if A[i] < A[j]:
+                Count[j] += 1
+            else:
+                Count[i] += 1
+    
+    for i in range(n):
+        S[Count[i]] = A[i]
+    
+    return S
+yukarıdaki algoritma stable(kararlı) mıdır?
+kararlıdır. çünkü küçüklük büyüklük olayına bakılır. mesela 60, 35, 81, 98, 14, 47 sayı listesi için 35 47 den her zaman önce gelir.
+yukarıdaki algoritma in-place(yerinde) midir?
+değildir. çünkü yeni bir liste oluşturur.
+
+5. pdf
+1. soru:
+son indeks numarasına sahip elemanı silme
+
+2. soru:
+a - c
+
+3. soru:
+c - d
+
+4. soru:
+komşuluk matrisinde köşegenler dışında bütün değerlerin 1 olması lazım
+
+5. soru:
+komşuluk listesinde bütün düğümler kendileri haricindeki bütün düğümlerle komşu olmalıdır
+
+6. soru:
+def funchtion(word1, word2):
+    return sorted(word1) == sorted(word2)
+
+6. pdf
+1. soru:
+doğal boyut öçüsü soruda verilen değer = n
+tüm sayıları birbirine ekleme
+temel işlem sayısı n adet sayıda ne adet ekleme işlemi gerçekleşmesi kadardır = n
+
+2. soru:
+2 boyutludur
+"m" sayısının modunu "n" sayısına göre alıp çıkan sonucu yeni "n" sayısı yaparız, başlangıçtaki "n" sayısı yeni "m" sayısı olur.
+çok büyük bir fark olmayacaktır.
+
+3. soru:
+her iki matrisin elemanlarını toplamak
+her iki matrisin elemanları teker teker bütün elemanlarla karşılıklı olarak toplanacak. bir matrisin bütün elemanlarının toplanması n^2 ken 2 matrisinki 2n^2 olur = 2n^2
+her iki matrisin toplam elemanı N, bir matrisin elemanı N/2 = N^2
+
+4. soru:
+logaritmik fonksiyon olduğu için 2 artar.
+köklü olduğu için değeri 2 katına çıkar.
+4 katına çıkar.
+16 katına çıkar.
+64 katına çıkar.
+4 katına çıkar.
+
+5. soru:
+2000*n^2
+0.01*n^3
+eşitler
+n!
+
+7. pdf
+1. soru:
+zaman karmaşıklığı 1'dir. çünkü her satır sabit bir zaman alır.
+
+2. soru:
+zaman karmaşıklığı N dir. çünkü döngüde en çok işlem yapılır, ve bütün kodun çalışma hızı döngüye bağlıdır.
+
+3. soru:
+zaman karmaşıklığı N^2 dir. çünkü dışardaki döngü N+1 kadar çalışırken, içerdeki döngü (n)n+1 kadar çalışır.
+
+4. soru:
+içerdeki döngüden kaynaklı olarak zaman karmaşıklığı N^2 dir.
+
+5. soru:
+zaman karmaşıklığı N dir. sadece içerdeki zaman karmaşıklığı kadar çalışır.
+
+6. soru:
+zaman karmaşıklığı n dir. döngü n e kadar çıkıyor.
