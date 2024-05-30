@@ -20,7 +20,7 @@ Bu projeye katkıda bulunmak istiyorsanız, lütfen aşağıdaki adımları taki
 ## İletişim
 Sorularınız veya geri bildirimleriniz için [instagram](https://www.instagram.com/loneoddaeth/), [linkedin](https://www.linkedin.com/in/s-o%C4%9Fuz-%C5%9Fahin-554727234/) veya [email](mailto:selimoguz38@outlook.com) üzerinden ulaşabilirsiniz.
 
-# ---------------------------------------------------------------
+---
 
 # **Computer Engineering**
 
